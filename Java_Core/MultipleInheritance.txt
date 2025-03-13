@@ -1,0 +1,34 @@
+/*
+ * Multiple inheritance occurs when we want to inherit properties from different parent type classes.
+ * In Java, we do not have the implementation of Multi-Level Inheritance. 
+ * 
+ * ----------------------------------------------------
+ * Read the explanation below: 
+ * 
+ * for example:
+ * We have worked with calculator classes where we implemented Multi-Level Inheritance.
+ * We were able to utilize MoreCalculator methods in ScientificCalculator becasue
+ *      ScientificCalculator is an Extension(child) of MoreCalculator(parent). 
+ * We were able to utilize Calculator methods in ScientificCalculator becasue
+ *      MoreCalculator is an Extension(child) of Calculator(Parent)
+ * which basically means
+ *      Calculator is the Grand-Parent of ScientificCalculator;
+ * or   ScientificCalculator is Grand-Child of Calculator;
+ * 
+ * Here we were able to access properties of parent and Grand Parent in calling class, beacuse there were no repetition of same methods.
+ * 
+ * ---------------------------------------------------
+ * 
+ * In case of multi-level inheritance, it is a possibility that we are having same method names in both the parent classes and 
+ * they conflict the behavior.
+ * 
+ *              A method()                                      B method()
+ *                          extends                    extends
+ *                                  c parent.method()    
+ * 
+ * C is getting confused which method() is being called, is it A.method() or B.method(). Hence the PROBLEM OF AMBIGUITY.
+ * meaning there is a problem of confusion.
+ * 
+ *                                  There is a work around for it though:      INTERFACES.
+ * 
+ */

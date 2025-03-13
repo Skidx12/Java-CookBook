@@ -1,0 +1,21 @@
+Poly-Morphism
+Meaning - Many Behaviour
+
+There are two types - Complie Time (example - Method overloading)
+                    - Run Time (example - Method Overriding)
+
+If the Behaviour is defined at compile time, what methods will be executed at the time of Compilation
+If the Behaviour is defined at Run time, what methods will be executed at the time of runing the program.
+
+
+So your behavior of your reference
+or your execution will change based on some situation.
+If it is compile time, which is your method overloading,
+where you decide based on the parameters at compile time itself.
+
+In runtime, you're not sure which method will be called
+because both the methods have the same name,
+same parameters, something which will decide that
+we'll discuss in the next video.
+But that is method overriding,
+which is run time polymorphism.
